@@ -23,4 +23,10 @@ describe("Task controller test", () => {
 
     assert.equal(response.status, 200);
   });
+
+  it("should delete a task", async () => {
+    const response = await supertest(app).delete("/task/1");
+
+    assert.equal(response.status, 200);
+  });
 });
