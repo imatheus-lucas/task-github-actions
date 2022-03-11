@@ -1,0 +1,17 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "mocha **/*.spec.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
